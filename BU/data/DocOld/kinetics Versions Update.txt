@@ -1,0 +1,11 @@
+1.17c -> Change Analog test from +/- 100 to +/- 200
+
+Kinetics Tester Mapuah 1.17d -> Add Can Analize adapter.
+
+Kinetics Tester Mapuah 1.17e -> Cable Length parameters for Namer, MK3 & MK4
+				Speed Change for: Namer test (8650 to 8350, 9150 to 8900, 9600 to 9450).
+	 		   			  MK4 test (8000 to 8300, 9000 to 9200).
+						
+Kinetics Tester Mapuah 1.17f -> Can BUS bugs fixe. The Can configuration was in "test-mode", the tester couldn't establishe connection.
+
+Kinetics Tester Mapuah 1.18f ->	Adding "Analog" test for Namer 30 & 60.

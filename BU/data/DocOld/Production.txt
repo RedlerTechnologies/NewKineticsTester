@@ -1,0 +1,5 @@
+Kinetics Production parameters :
+Kinetics 30A  P/N: 500490     Ver: 5.4.5     S/N: 12
+Kinetics 60A  P/N: 500390     Ver: 5.4.8      S/N: 33
+Warrior RA 60A  P/N: 500590     Ver: 5.4.6     S/N: 12
+Condenser  P/N: 5310003     Ver: 5.4.1     S/N: 11
