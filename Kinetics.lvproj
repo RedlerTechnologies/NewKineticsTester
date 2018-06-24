@@ -378,7 +378,7 @@
 			<Item Name="Operation (SubVI).vi" Type="VI" URL="../Operation (SubVI).vi"/>
 			<Item Name="PassFailUUT (SubVI).vi" Type="VI" URL="../PassFailUUT (SubVI).vi"/>
 			<Item Name="PassOrFail (SubVI).vi" Type="VI" URL="../PassOrFail (SubVI).vi"/>
-			<Item Name="Reset old test Values (SubVI).vi" Type="VI" URL="../Reset old test Values (SubVI).vi"/>
+			<Item Name="Reset old test Values (SubVI) Kinetics.vi" Type="VI" URL="../Reset old test Values (SubVI) Kinetics.vi"/>
 			<Item Name="ResetTable Result (SubVI).vi" Type="VI" URL="../ResetTable Result (SubVI).vi"/>
 			<Item Name="RUN_control.vi" Type="VI" URL="../RUN_control.vi"/>
 			<Item Name="Serial.vi" Type="VI" URL="../Serial.vi"/>
@@ -407,16 +407,16 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DED52CE-10C8-4106-A02F-1BFBD29FB605}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Kinetics V0.0.b.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Kinetics/Kinetics V0.0.b.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Kinetics V0.0.c.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Kinetics/Kinetics V0.0.c.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Kinetics/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1560ED05-148A-4359-A11B-5C64FA51BC84}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F3A2586F-5F8E-4D45-BD3D-C1B8DF468AA3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MainKinetics.vi</Property>
@@ -456,7 +456,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Engineer</Property>
 				<Property Name="TgtF_productName" Type="Str">Kinetics</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0F517C79-BCFB-4059-BA72-7CCA1DA72A26}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Kinetics V0.0.b.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Kinetics V0.0.c.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
