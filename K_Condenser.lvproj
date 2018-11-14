@@ -10,10 +10,25 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="ATR_Banner.png" Type="Document" URL="../data/ATR_Banner.png"/>
 		<Item Name="COM Tester.vi" Type="VI" URL="../COM Tester.vi"/>
+		<Item Name="CondenserIndia.docx" Type="Document" URL="../data/CondenserIndia.docx"/>
+		<Item Name="CondenserMerkava.docx" Type="Document" URL="../data/CondenserMerkava.docx"/>
+		<Item Name="ControlCAN.dll" Type="Document" URL="../data/ControlCAN.dll"/>
 		<Item Name="ControlCAN.lvlib" Type="Library" URL="../PCAN_Driver/ControlCAN.lvlib"/>
+		<Item Name="End.docx" Type="Document" URL="../data/End.docx"/>
+		<Item Name="KineticsParams.ini" Type="Document" URL="../data/KineticsParams.ini"/>
 		<Item Name="MainCondenser.vi" Type="VI" URL="../MainCondenser.vi"/>
+		<Item Name="Namer30.docx" Type="Document" URL="../data/Namer30.docx"/>
+		<Item Name="Namer60.docx" Type="Document" URL="../data/Namer60.docx"/>
+		<Item Name="Parameters_CONDENSER_INDIA_RRPAR000018.txt" Type="Document" URL="../data/Parameters_CONDENSER_INDIA_RRPAR000018.txt"/>
+		<Item Name="Parameters_CONDENSER_RRPAR000004.txt" Type="Document" URL="../data/Parameters_CONDENSER_RRPAR000004.txt"/>
+		<Item Name="Parameters_NAMER_30A_RRPAR000002.txt" Type="Document" URL="../data/Parameters_NAMER_30A_RRPAR000002.txt"/>
+		<Item Name="Parameters_NAMER_60A_RRPAR000001.txt" Type="Document" URL="../data/Parameters_NAMER_60A_RRPAR000001.txt"/>
+		<Item Name="Parameters_WARRIOR_RRPAR000003.txt" Type="Document" URL="../data/Parameters_WARRIOR_RRPAR000003.txt"/>
 		<Item Name="RS232 DTR RTS.vi" Type="VI" URL="../RS232 DTR RTS.vi"/>
+		<Item Name="TestResult.ini" Type="Document" URL="../data/TestResult.ini"/>
+		<Item Name="Warrior.docx" Type="Document" URL="../data/Warrior.docx"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -170,6 +185,93 @@
 			<Item Name="ValFromATR(SubVI).vi" Type="VI" URL="../ValFromATR(SubVI).vi"/>
 			<Item Name="Write panel message Kinetics (SubVI).vi" Type="VI" URL="../Write panel message Kinetics (SubVI).vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Condenser" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{10930E57-07A2-4268-9D38-96B3C05E72BD}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6A4916DF-8FE2-40B4-8A6F-9BF3959076A3}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Engineer.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{8C980578-DD10-4D05-A03E-8E9832719600}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Condenser</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{99E80B10-C495-487D-BC18-A501B21739E4}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Condenser V0.0.b.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Condenser V0.0.b.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BEF24CB1-4A6D-478B-ACE1-9ED00A9F3D26}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MainCondenser.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/ControlCAN.dll</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/End.docx</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Parameters_NAMER_30A_RRPAR000002.txt</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Parameters_NAMER_60A_RRPAR000001.txt</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Parameters_WARRIOR_RRPAR000003.txt</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Warrior.docx</Property>
+				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/TestResult.ini</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ATR_Banner.png</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/CondenserIndia.docx</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/CondenserMerkava.docx</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/KineticsParams.ini</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Namer30.docx</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Parameters_CONDENSER_INDIA_RRPAR000018.txt</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Parameters_CONDENSER_RRPAR000004.txt</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Namer60.docx</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">17</Property>
+				<Property Name="TgtF_companyName" Type="Str">Engineer</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Condenser</Property>
+				<Property Name="TgtF_internalName" Type="Str">Condenser</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Engineer</Property>
+				<Property Name="TgtF_productName" Type="Str">Condenser</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{AFA5F186-434C-4DAB-BC31-0B7A9833A3E2}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Condenser V0.0.b.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
