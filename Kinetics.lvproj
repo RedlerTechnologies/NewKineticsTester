@@ -26,7 +26,9 @@
 		<Item Name="Parameters_NAMER_60A_RRPAR000001.txt" Type="Document" URL="../data/Parameters_NAMER_60A_RRPAR000001.txt"/>
 		<Item Name="Parameters_WARRIOR_RRPAR000003.txt" Type="Document" URL="../data/Parameters_WARRIOR_RRPAR000003.txt"/>
 		<Item Name="redler_BOD_icon.ico" Type="Document" URL="../../../Users/Joseph/Downloads/icon/redler_BOD_icon.ico"/>
+		<Item Name="SetSN (SubVI).vi" Type="VI" URL="../SetSN (SubVI).vi"/>
 		<Item Name="TestResult.ini" Type="Document" URL="../data/TestResult.ini"/>
+		<Item Name="VInspection.vi" Type="VI" URL="../VInspection.vi"/>
 		<Item Name="Warrior.docx" Type="Document" URL="../data/Warrior.docx"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -352,6 +354,7 @@
 			</Item>
 			<Item Name="Array Data to Single Num in Hex.vi" Type="VI" URL="../Array Data to Single Num in Hex.vi"/>
 			<Item Name="ATRBuild.vi" Type="VI" URL="../ATRBuild.vi"/>
+			<Item Name="Build PN (SubVI).vi" Type="VI" URL="../Build PN (SubVI).vi"/>
 			<Item Name="Cable Length Param.vi" Type="VI" URL="../Cable Length Param.vi"/>
 			<Item Name="CANAnalData.vi" Type="VI" URL="../CANAnalData.vi"/>
 			<Item Name="CANSendMessage.vi" Type="VI" URL="../CANSendMessage.vi"/>
@@ -395,6 +398,7 @@
 			<Item Name="TesterOption (SubVI).vi" Type="VI" URL="../TesterOption (SubVI).vi"/>
 			<Item Name="UUT select.vi" Type="VI" URL="../UUT select.vi"/>
 			<Item Name="ValFromATR(SubVI).vi" Type="VI" URL="../ValFromATR(SubVI).vi"/>
+			<Item Name="VisualInspectionKineticsNamer60.vi" Type="VI" URL="../VisualInspectionKineticsNamer60.vi"/>
 			<Item Name="Write panel message Kinetics (SubVI).vi" Type="VI" URL="../Write panel message Kinetics (SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -414,17 +418,17 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DED52CE-10C8-4106-A02F-1BFBD29FB605}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Kinetics V0.0.h.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Kinetics/Kinetics V0.0.h.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Kinetics V0.0.l.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Kinetics/Kinetics V0.0.l.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Kinetics/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/redler_BOD_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7A0372C4-C6E3-44F6-B856-F6C782382B12}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3B7D6DF5-12C1-4ADD-B7B6-4C93BD06727C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MainKinetics.vi</Property>
@@ -435,22 +439,16 @@
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/CondenserIndia.docx</Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/CondenserMerkava.docx</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[13].itemID" Type="Ref">/My Computer/End.docx</Property>
-				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Namer30.docx</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Namer60.docx</Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Warrior.docx</Property>
-				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ATR_Banner.png</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -482,7 +480,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Engineer</Property>
 				<Property Name="TgtF_productName" Type="Str">Kinetics</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0F517C79-BCFB-4059-BA72-7CCA1DA72A26}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Kinetics V0.0.h.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Kinetics V0.0.l.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
