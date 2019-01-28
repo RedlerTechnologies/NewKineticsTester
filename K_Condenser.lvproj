@@ -136,7 +136,6 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
@@ -157,12 +156,11 @@
 			<Item Name="CANAnalData.vi" Type="VI" URL="../CANAnalData.vi"/>
 			<Item Name="CANSendMessage.vi" Type="VI" URL="../CANSendMessage.vi"/>
 			<Item Name="COM Curent Read.vi" Type="VI" URL="../COM Curent Read.vi"/>
-			<Item Name="COM UUT Board.vi" Type="VI" URL="../COM UUT Board.vi"/>
 			<Item Name="DataFrom_ini (SubVI).vi" Type="VI" URL="../DataFrom_ini (SubVI).vi"/>
 			<Item Name="Demo_MakeDispBuff.vi" Type="VI" URL="../Demo_MakeDispBuff.vi"/>
 			<Item Name="Find_Number_Line.vi" Type="VI" URL="../Find_Number_Line.vi"/>
 			<Item Name="Find_Number_LineMARVIN.vi" Type="VI" URL="../Find_Number_LineMARVIN.vi"/>
-			<Item Name="GetADCTester (SubVI).vi" Type="VI" URL="../GetADCTester (SubVI).vi"/>
+			<Item Name="Functional Global Variable.vi" Type="VI" URL="../Functional Global Variable.vi"/>
 			<Item Name="GetDllPath.vi" Type="VI" URL="../../KineticksTester_Mapuah/CAN/CANalystII/PCAN_Driver/ControlCAN.llb/GetDllPath.vi"/>
 			<Item Name="HeaderBis.vi" Type="VI" URL="../HeaderBis.vi"/>
 			<Item Name="Help.vi" Type="VI" URL="../Help.vi"/>

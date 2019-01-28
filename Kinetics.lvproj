@@ -20,9 +20,7 @@
 		<Item Name="Parameters_NAMER_60A_RRPAR000001.txt" Type="Document" URL="../data/Parameters_NAMER_60A_RRPAR000001.txt"/>
 		<Item Name="Parameters_WARRIOR_RRPAR000003.txt" Type="Document" URL="../data/Parameters_WARRIOR_RRPAR000003.txt"/>
 		<Item Name="redler_BOD_icon.ico" Type="Document" URL="../../../Users/Joseph/Downloads/icon/redler_BOD_icon.ico"/>
-		<Item Name="SetParameters (SubVI).vi" Type="VI" URL="../SetParameters (SubVI).vi"/>
 		<Item Name="TestResult.ini" Type="Document" URL="../data/TestResult.ini"/>
-		<Item Name="Wait Motor 0 RPM (SubVI).vi" Type="VI" URL="../Wait Motor 0 RPM (SubVI).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -387,6 +385,7 @@
 			<Item Name="RUN_control.vi" Type="VI" URL="../RUN_control.vi"/>
 			<Item Name="Serial.vi" Type="VI" URL="../Serial.vi"/>
 			<Item Name="SetParam.vi" Type="VI" URL="../SetParam.vi"/>
+			<Item Name="SetParameters (SubVI).vi" Type="VI" URL="../SetParameters (SubVI).vi"/>
 			<Item Name="SetSN (SubVI).vi" Type="VI" URL="../SetSN (SubVI).vi"/>
 			<Item Name="Start Test Selection (SubVI).vi" Type="VI" URL="../Start Test Selection (SubVI).vi"/>
 			<Item Name="Table_ScrollaBarMarvin.vi" Type="VI" URL="../Table_ScrollaBarMarvin.vi"/>
@@ -394,6 +393,7 @@
 			<Item Name="UUT select.vi" Type="VI" URL="../UUT select.vi"/>
 			<Item Name="ValFromATR(SubVI).vi" Type="VI" URL="../ValFromATR(SubVI).vi"/>
 			<Item Name="VisualInspectionKineticsNamer60.vi" Type="VI" URL="../VisualInspectionKineticsNamer60.vi"/>
+			<Item Name="Wait Motor 0 RPM (SubVI).vi" Type="VI" URL="../Wait Motor 0 RPM (SubVI).vi"/>
 			<Item Name="Write panel message Kinetics (SubVI).vi" Type="VI" URL="../Write panel message Kinetics (SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -413,17 +413,17 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DED52CE-10C8-4106-A02F-1BFBD29FB605}</Property>
-				<Property Name="Bld_version.build" Type="Int">49</Property>
+				<Property Name="Bld_version.build" Type="Int">53</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Kinetics V0.0.q.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Kinetics/Kinetics V0.0.q.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Kinetics V0.0.t.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Kinetics/Kinetics V0.0.t.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Kinetics/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/redler_BOD_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{88177681-B9E9-4EF3-B1AA-6CB3B865016A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D20C869C-D8FD-459F-A380-19EB433EEDEC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MainKinetics.vi</Property>
@@ -463,7 +463,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Engineer</Property>
 				<Property Name="TgtF_productName" Type="Str">Kinetics</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0F517C79-BCFB-4059-BA72-7CCA1DA72A26}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Kinetics V0.0.q.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Kinetics V0.0.t.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
