@@ -17,7 +17,7 @@
 		<Item Name="VCI_ClearBuffer.vi" Type="VI" URL="../ControlCAN.llb/VCI_ClearBuffer.vi"/>
 		<Item Name="VCI_StartCAN.vi" Type="VI" URL="../ControlCAN.llb/VCI_StartCAN.vi"/>
 		<Item Name="VCI_ResetCAN.vi" Type="VI" URL="../ControlCAN.llb/VCI_ResetCAN.vi"/>
-		<Item Name="VCI_Receive.vi" Type="VI" URL="../../../KineticksTester_Mapuah/data/ControlCAN.llb/VCI_Receive.vi"/>
+		<Item Name="VCI_Receive.vi" Type="VI" URL="../ControlCAN.llb/VCI_Receive.vi"/>
 		<Item Name="VCI_Transmit.vi" Type="VI" URL="../ControlCAN.llb/VCI_Transmit.vi"/>
 		<Item Name="VCI_GetReference2.vi" Type="VI" URL="../ControlCAN.llb/VCI_GetReference2.vi"/>
 		<Item Name="VCI_SetReference2.vi" Type="VI" URL="../ControlCAN.llb/VCI_SetReference2.vi"/>
@@ -46,9 +46,9 @@
 		<Item Name="VCI_CAN_OBJ" Type="Folder">
 			<Item Name="VCI_CAN_OBJ.ctl" Type="VI" URL="../ControlCAN.llb/VCI_CAN_OBJ.ctl"/>
 			<Item Name="VCI_CAN_OBJ_1.ctl" Type="VI" URL="../ControlCAN.llb/VCI_CAN_OBJ_1.ctl"/>
-			<Item Name="VCI_CAN_OBJ_1_CONVERT.vi" Type="VI" URL="../../../KineticksTester_Mapuah/data/ControlCAN.llb/VCI_CAN_OBJ_1_CONVERT.vi"/>
+			<Item Name="VCI_CAN_OBJ_1_CONVERT.vi" Type="VI" URL="../ControlCAN.llb/VCI_CAN_OBJ_1_CONVERT.vi"/>
 			<Item Name="VCI_CAN_OBJ_CONVERT.vi" Type="VI" URL="../ControlCAN.llb/VCI_CAN_OBJ_CONVERT.vi"/>
-			<Item Name="VCI_CAN_OBJ_U8ARR_CONVERT.vi" Type="VI" URL="../../../KineticksTester_Mapuah/data/ControlCAN.llb/VCI_CAN_OBJ_U8ARR_CONVERT.vi"/>
+			<Item Name="VCI_CAN_OBJ_U8ARR_CONVERT.vi" Type="VI" URL="../ControlCAN.llb/VCI_CAN_OBJ_U8ARR_CONVERT.vi"/>
 		</Item>
 		<Item Name="VCI_ERR_INFO" Type="Folder">
 			<Item Name="VCI_ERR_INFO.ctl" Type="VI" URL="../ControlCAN.llb/VCI_ERR_INFO.ctl"/>
