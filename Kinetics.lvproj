@@ -16,6 +16,7 @@
 		<Item Name="ControlCAN.dll" Type="Document" URL="../data/ControlCAN.dll"/>
 		<Item Name="KineticsParams.ini" Type="Document" URL="../data/KineticsParams.ini"/>
 		<Item Name="MainKinetics.vi" Type="VI" URL="../MainKinetics.vi"/>
+		<Item Name="MTest.vi" Type="VI" URL="../MTest.vi"/>
 		<Item Name="Parameters_CONDENSER_INDIA_RRPAR000018.txt" Type="Document" URL="../data/Parameters_CONDENSER_INDIA_RRPAR000018.txt"/>
 		<Item Name="Parameters_CONDENSER_RRPAR000004.txt" Type="Document" URL="../data/Parameters_CONDENSER_RRPAR000004.txt"/>
 		<Item Name="Parameters_NAMER_30A_RRPAR000002.txt" Type="Document" URL="../data/Parameters_NAMER_30A_RRPAR000002.txt"/>
@@ -466,6 +467,49 @@
 				<Property Name="TgtF_productName" Type="Str">Kinetics</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0F517C79-BCFB-4059-BA72-7CCA1DA72A26}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Kinetics .exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="MKinetics" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{704C4D6E-9DDB-4E56-A625-B727DCB7932E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{8CA26FDF-26DA-48D2-B700-177D978C9B39}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F77EB418-6839-49BA-89E4-C012A3511B0F}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">MKinetics</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/MKinetics</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{87751D73-2300-43C2-9570-D9CC4B1D923D}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">MKinetics.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MKinetics/MKinetics.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/MKinetics/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BC74549E-4964-432D-A19E-200151587611}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MTest.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/MainKinetics.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Redler</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">MKinetics</Property>
+				<Property Name="TgtF_internalName" Type="Str">MKinetics</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 redler</Property>
+				<Property Name="TgtF_productName" Type="Str">MKinetics</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{232C8CFF-C599-413F-8AD2-E506528B5F8B}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">MKinetics.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
