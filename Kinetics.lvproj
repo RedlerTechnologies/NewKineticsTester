@@ -22,6 +22,7 @@
 		<Item Name="Parameters_NAMER_30A_RRPAR000002.txt" Type="Document" URL="../data/Parameters_NAMER_30A_RRPAR000002.txt"/>
 		<Item Name="Parameters_NAMER_60A_RRPAR000001.txt" Type="Document" URL="../data/Parameters_NAMER_60A_RRPAR000001.txt"/>
 		<Item Name="Parameters_WARRIOR_RRPAR000003.txt" Type="Document" URL="../data/Parameters_WARRIOR_RRPAR000003.txt"/>
+		<Item Name="Read.vi" Type="VI" URL="../Read.vi"/>
 		<Item Name="redler_BOD_icon.ico" Type="Document" URL="../redler_BOD_icon.ico"/>
 		<Item Name="SNStrComp.vi" Type="VI" URL="../SNStrComp.vi"/>
 		<Item Name="TestResult.ini" Type="Document" URL="../data/TestResult.ini"/>
@@ -484,7 +485,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{87751D73-2300-43C2-9570-D9CC4B1D923D}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MKinetics.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MKinetics/MKinetics.exe</Property>
