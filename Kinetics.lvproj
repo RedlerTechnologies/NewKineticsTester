@@ -19,7 +19,7 @@
 		<Item Name="Parameters_NAMER_30A_RRPAR000002.txt" Type="Document" URL="../data/Parameters_NAMER_30A_RRPAR000002.txt"/>
 		<Item Name="Parameters_NAMER_60A_RRPAR000001.txt" Type="Document" URL="../data/Parameters_NAMER_60A_RRPAR000001.txt"/>
 		<Item Name="Parameters_WARRIOR_RRPAR000003.txt" Type="Document" URL="../data/Parameters_WARRIOR_RRPAR000003.txt"/>
-		<Item Name="redler_BOD_icon.ico" Type="Document" URL="../../../Users/Joseph/Downloads/icon/redler_BOD_icon.ico"/>
+		<Item Name="redler_BOD_icon.ico" Type="Document" URL="../redler_BOD_icon.ico"/>
 		<Item Name="TestResult.ini" Type="Document" URL="../data/TestResult.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -343,12 +343,13 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Array Data to Single Num in Hex.vi" Type="VI" URL="../Array Data to Single Num in Hex.vi"/>
 			<Item Name="ATRBuild.vi" Type="VI" URL="../ATRBuild.vi"/>
 			<Item Name="Build PN (SubVI).vi" Type="VI" URL="../Build PN (SubVI).vi"/>
 			<Item Name="Cable Length Param.vi" Type="VI" URL="../Cable Length Param.vi"/>
 			<Item Name="CANAnalData.vi" Type="VI" URL="../CANAnalData.vi"/>
 			<Item Name="CANSendMessage.vi" Type="VI" URL="../CANSendMessage.vi"/>
+			<Item Name="CheckData.vi" Type="VI" URL="../CheckData.vi"/>
+			<Item Name="CheckError.vi" Type="VI" URL="../CheckError.vi"/>
 			<Item Name="Clear CAN Buffer.vi" Type="VI" URL="../Clear CAN Buffer.vi"/>
 			<Item Name="Close CAN Device.vi" Type="VI" URL="../Close CAN Device.vi"/>
 			<Item Name="COM Curent Read.vi" Type="VI" URL="../COM Curent Read.vi"/>
@@ -358,12 +359,10 @@
 			<Item Name="DataFrom_ini (SubVI).vi" Type="VI" URL="../DataFrom_ini (SubVI).vi"/>
 			<Item Name="Demo_GetT0T1.vi" Type="VI" URL="../Demo_GetT0T1.vi"/>
 			<Item Name="Demo_MakeDispBuff.vi" Type="VI" URL="../Demo_MakeDispBuff.vi"/>
-			<Item Name="Filter (SubVI).vi" Type="VI" URL="../Filter (SubVI).vi"/>
 			<Item Name="Find DAQ Devices.vi" Type="VI" URL="../Find DAQ Devices.vi"/>
 			<Item Name="Find_Number_Line.vi" Type="VI" URL="../Find_Number_Line.vi"/>
 			<Item Name="Find_Number_LineMARVIN.vi" Type="VI" URL="../Find_Number_LineMARVIN.vi"/>
 			<Item Name="GetADCTester (SubVI).vi" Type="VI" URL="../GetADCTester (SubVI).vi"/>
-			<Item Name="GetDllPath.vi" Type="VI" URL="../../KineticksTester_Mapuah/CAN/CANalystII/PCAN_Driver/ControlCAN.llb/GetDllPath.vi"/>
 			<Item Name="HeaderBis.vi" Type="VI" URL="../HeaderBis.vi"/>
 			<Item Name="Help.vi" Type="VI" URL="../Help.vi"/>
 			<Item Name="InitCAN_ATII.vi" Type="VI" URL="../InitCAN_ATII.vi"/>
@@ -371,7 +370,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="KineticsCan.vi" Type="VI" URL="../../KineticksTester_Mapuah/KineticsCan.vi"/>
+			<Item Name="KineticsCan.vi" Type="VI" URL="../KineticsCan.vi"/>
 			<Item Name="MarvinReport.vi" Type="VI" URL="../MarvinReport.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -387,6 +386,7 @@
 			<Item Name="SetParam.vi" Type="VI" URL="../SetParam.vi"/>
 			<Item Name="SetParameters (SubVI).vi" Type="VI" URL="../SetParameters (SubVI).vi"/>
 			<Item Name="SetSN (SubVI).vi" Type="VI" URL="../SetSN (SubVI).vi"/>
+			<Item Name="SNStrComp.vi" Type="VI" URL="../SNStrComp.vi"/>
 			<Item Name="Start Test Selection (SubVI).vi" Type="VI" URL="../Start Test Selection (SubVI).vi"/>
 			<Item Name="Table_ScrollaBarMarvin.vi" Type="VI" URL="../Table_ScrollaBarMarvin.vi"/>
 			<Item Name="TesterOption (SubVI).vi" Type="VI" URL="../TesterOption (SubVI).vi"/>
@@ -413,17 +413,17 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DED52CE-10C8-4106-A02F-1BFBD29FB605}</Property>
-				<Property Name="Bld_version.build" Type="Int">53</Property>
+				<Property Name="Bld_version.build" Type="Int">81</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Kinetics V0.0.t.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Kinetics/Kinetics V0.0.t.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Kinetics 0.1.e .exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Kinetics/Kinetics 0.1.e .exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Kinetics/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/redler_BOD_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D20C869C-D8FD-459F-A380-19EB433EEDEC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{367168D3-CB20-4F5A-8723-EE31A253E922}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MainKinetics.vi</Property>
@@ -463,7 +463,50 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Engineer</Property>
 				<Property Name="TgtF_productName" Type="Str">Kinetics</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0F517C79-BCFB-4059-BA72-7CCA1DA72A26}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Kinetics V0.0.t.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Kinetics 0.1.e .exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="MKinetics" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{704C4D6E-9DDB-4E56-A625-B727DCB7932E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{8CA26FDF-26DA-48D2-B700-177D978C9B39}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F77EB418-6839-49BA-89E4-C012A3511B0F}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">MKinetics</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/MKinetics</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{87751D73-2300-43C2-9570-D9CC4B1D923D}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">MKinetics.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MKinetics/MKinetics.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/MKinetics/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BC74549E-4964-432D-A19E-200151587611}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/MainKinetics.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Redler</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">MKinetics</Property>
+				<Property Name="TgtF_internalName" Type="Str">MKinetics</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 redler</Property>
+				<Property Name="TgtF_productName" Type="Str">MKinetics</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{232C8CFF-C599-413F-8AD2-E506528B5F8B}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">MKinetics.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
