@@ -11,9 +11,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ATR_Banner.png" Type="Document" URL="../data/ATR_Banner.png"/>
+		<Item Name="CheckData.vi" Type="VI" URL="../CheckData.vi"/>
+		<Item Name="CheckError.vi" Type="VI" URL="../CheckError.vi"/>
 		<Item Name="ControlCAN.dll" Type="Document" URL="../data/ControlCAN.dll"/>
 		<Item Name="KineticsParams.ini" Type="Document" URL="../data/KineticsParams.ini"/>
 		<Item Name="MainKinetics.vi" Type="VI" URL="../MainKinetics.vi"/>
+		<Item Name="MTest.vi" Type="VI" URL="../MTest.vi"/>
 		<Item Name="Parameters_CONDENSER_INDIA_RRPAR000018.txt" Type="Document" URL="../data/Parameters_CONDENSER_INDIA_RRPAR000018.txt"/>
 		<Item Name="Parameters_CONDENSER_RRPAR000004.txt" Type="Document" URL="../data/Parameters_CONDENSER_RRPAR000004.txt"/>
 		<Item Name="Parameters_NAMER_30A_RRPAR000002.txt" Type="Document" URL="../data/Parameters_NAMER_30A_RRPAR000002.txt"/>
