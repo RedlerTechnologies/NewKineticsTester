@@ -351,8 +351,6 @@
 			<Item Name="Cable Length Param.vi" Type="VI" URL="../Cable Length Param.vi"/>
 			<Item Name="CANAnalData.vi" Type="VI" URL="../CANAnalData.vi"/>
 			<Item Name="CANSendMessage.vi" Type="VI" URL="../CANSendMessage.vi"/>
-			<Item Name="CheckData.vi" Type="VI" URL="../CheckData.vi"/>
-			<Item Name="CheckError.vi" Type="VI" URL="../CheckError.vi"/>
 			<Item Name="Clear CAN Buffer.vi" Type="VI" URL="../Clear CAN Buffer.vi"/>
 			<Item Name="Close CAN Device.vi" Type="VI" URL="../Close CAN Device.vi"/>
 			<Item Name="COM Curent Read.vi" Type="VI" URL="../COM Curent Read.vi"/>
@@ -365,6 +363,7 @@
 			<Item Name="Find DAQ Devices.vi" Type="VI" URL="../Find DAQ Devices.vi"/>
 			<Item Name="Find_Number_Line.vi" Type="VI" URL="../Find_Number_Line.vi"/>
 			<Item Name="Find_Number_LineMARVIN.vi" Type="VI" URL="../Find_Number_LineMARVIN.vi"/>
+			<Item Name="Functional Global Variable.vi" Type="VI" URL="../Functional Global Variable.vi"/>
 			<Item Name="GetADCTester (SubVI).vi" Type="VI" URL="../GetADCTester (SubVI).vi"/>
 			<Item Name="HeaderBis.vi" Type="VI" URL="../HeaderBis.vi"/>
 			<Item Name="Help.vi" Type="VI" URL="../Help.vi"/>
@@ -381,7 +380,8 @@
 			<Item Name="Operation (SubVI).vi" Type="VI" URL="../Operation (SubVI).vi"/>
 			<Item Name="PassFailUUT (SubVI).vi" Type="VI" URL="../PassFailUUT (SubVI).vi"/>
 			<Item Name="PassOrFail (SubVI).vi" Type="VI" URL="../PassOrFail (SubVI).vi"/>
-			<Item Name="ReadCurrent.vi" Type="VI" URL="../Current/Labview/ReadCurrent.vi"/>
+			<Item Name="Read.vi" Type="VI" URL="../Read.vi"/>
+			<Item Name="ReadCurrent.vi" Type="VI" URL="../BU/14.11.18/Current/Labview/ReadCurrent.vi"/>
 			<Item Name="Reset old test Values (SubVI) Kinetics.vi" Type="VI" URL="../Reset old test Values (SubVI) Kinetics.vi"/>
 			<Item Name="ResetTable Result (SubVI).vi" Type="VI" URL="../ResetTable Result (SubVI).vi"/>
 			<Item Name="RUN_control.vi" Type="VI" URL="../RUN_control.vi"/>
