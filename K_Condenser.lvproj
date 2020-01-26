@@ -306,7 +306,7 @@
 			<Item Name="Operation (SubVI).vi" Type="VI" URL="../Operation (SubVI).vi"/>
 			<Item Name="PassFailUUT (SubVI).vi" Type="VI" URL="../PassFailUUT (SubVI).vi"/>
 			<Item Name="PassOrFail (SubVI).vi" Type="VI" URL="../PassOrFail (SubVI).vi"/>
-			<Item Name="ReadCurrent.vi" Type="VI" URL="../BU/14.11.18/Current/Labview/ReadCurrent.vi"/>
+			<Item Name="ReadCurrent.vi" Type="VI" URL="../BU/18.08.19/Current Proc (PIC Controller)/Labview/ReadCurrent.vi"/>
 			<Item Name="Report build (SubVI).vi" Type="VI" URL="../Report build (SubVI).vi"/>
 			<Item Name="ReportStartBuild.vi" Type="VI" URL="../ReportStartBuild.vi"/>
 			<Item Name="Reset old test Values (SubVI) Kinetics.vi" Type="VI" URL="../Reset old test Values (SubVI) Kinetics.vi"/>
@@ -322,7 +322,7 @@
 			<Item Name="Write panel message Kinetics (SubVI).vi" Type="VI" URL="../Write panel message Kinetics (SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Condenser V0.1.a" Type="EXE">
+			<Item Name="Condenser V0.1.c" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{10930E57-07A2-4268-9D38-96B3C05E72BD}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{6A4916DF-8FE2-40B4-8A6F-9BF3959076A3}</Property>
@@ -330,7 +330,7 @@
 				<Property Name="App_winsec.description" Type="Str">http://www.Engineer.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{8C980578-DD10-4D05-A03E-8E9832719600}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Condenser V0.1.a</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Condenser V0.1.c</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -338,17 +338,17 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{99E80B10-C495-487D-BC18-A501B21739E4}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Condenser V0.1.a.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Condenser V0.1.a.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Condenser V0.1.c.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Condenser V0.1.c.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/redler_BOD_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6692020B-920F-460D-8FB5-8EFD7007DA45}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6614B3D1-F342-4797-A5C7-D1343C531B0E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MainCondenser.vi</Property>
@@ -396,12 +396,12 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Attached/Namer60.docx</Property>
 				<Property Name="SourceCount" Type="Int">19</Property>
 				<Property Name="TgtF_companyName" Type="Str">Engineer</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Condenser V0.1.a</Property>
-				<Property Name="TgtF_internalName" Type="Str">Condenser V0.1.a</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Condenser V0.1.c</Property>
+				<Property Name="TgtF_internalName" Type="Str">Condenser V0.1.c</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Engineer</Property>
-				<Property Name="TgtF_productName" Type="Str">Condenser V0.1.a</Property>
+				<Property Name="TgtF_productName" Type="Str">Condenser V0.1.c</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{AFA5F186-434C-4DAB-BC31-0B7A9833A3E2}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Condenser V0.1.a.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Condenser V0.1.c.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
