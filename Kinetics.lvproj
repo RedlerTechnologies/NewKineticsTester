@@ -364,6 +364,7 @@
 			<Item Name="DataFrom_ini (SubVI).vi" Type="VI" URL="../DataFrom_ini (SubVI).vi"/>
 			<Item Name="Demo_GetT0T1.vi" Type="VI" URL="../Demo_GetT0T1.vi"/>
 			<Item Name="Demo_MakeDispBuff.vi" Type="VI" URL="../Demo_MakeDispBuff.vi"/>
+			<Item Name="find chapter test (FailsReport) (SubVI).vi" Type="VI" URL="../find chapter test (FailsReport) (SubVI).vi"/>
 			<Item Name="Find DAQ Devices.vi" Type="VI" URL="../Find DAQ Devices.vi"/>
 			<Item Name="Find_Number_Line.vi" Type="VI" URL="../Find_Number_Line.vi"/>
 			<Item Name="Find_Number_LineMARVIN.vi" Type="VI" URL="../Find_Number_LineMARVIN.vi"/>
@@ -386,6 +387,7 @@
 			<Item Name="PassOrFail (SubVI).vi" Type="VI" URL="../PassOrFail (SubVI).vi"/>
 			<Item Name="Read.vi" Type="VI" URL="../Read.vi"/>
 			<Item Name="ReadCurrent.vi" Type="VI" URL="../Current Proc (PIC Controller)/Labview/ReadCurrent.vi"/>
+			<Item Name="ReportOUT.vi" Type="VI" URL="../ReportOUT.vi"/>
 			<Item Name="Reset old test Values (SubVI) Kinetics.vi" Type="VI" URL="../Reset old test Values (SubVI) Kinetics.vi"/>
 			<Item Name="ResetTable Result (SubVI).vi" Type="VI" URL="../ResetTable Result (SubVI).vi"/>
 			<Item Name="RUN_control.vi" Type="VI" URL="../RUN_control.vi"/>
@@ -421,7 +423,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DED52CE-10C8-4106-A02F-1BFBD29FB605}</Property>
-				<Property Name="Bld_version.build" Type="Int">84</Property>
+				<Property Name="Bld_version.build" Type="Int">87</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Kinetics 0.1.e.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Kinetics 0.1.e.exe</Property>
